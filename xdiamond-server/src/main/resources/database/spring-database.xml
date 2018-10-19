@@ -12,7 +12,7 @@
 			<property name="password" value="${jdbc.password}" />
 			<property name="filters" value="stat,slf4j" />
 			<property name="maxActive" value="20" />
-			<property name="validationQuery" value="SELECT 'x'" />
+			<property name="validationQuery" value="select 1 from dual" />
 			<property name="testWhileIdle" value="true" />
 			<property name="poolPreparedStatements" value="true" />
 		</bean>
@@ -26,7 +26,7 @@
 			<property name="password" value="${jdbc.password}" />
 			<property name="filters" value="stat" />
 			<property name="maxActive" value="20" />
-			<property name="validationQuery" value="SELECT 'x'" />
+			<property name="validationQuery" value="select 1 from dual" />
 			<property name="testWhileIdle" value="true" />
 			<property name="poolPreparedStatements" value="true" />
 		</bean>
@@ -40,7 +40,7 @@
 			<property name="password" value="${jdbc.password}" />
 			<property name="filters" value="stat" />
 			<property name="maxActive" value="20" />
-			<property name="validationQuery" value="SELECT 'x'" />
+			<property name="validationQuery" value="select 1 from dual" />
 			<property name="testWhileIdle" value="true" />
 			<property name="poolPreparedStatements" value="true" />
 		</bean>

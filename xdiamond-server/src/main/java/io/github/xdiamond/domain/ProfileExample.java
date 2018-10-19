@@ -284,132 +284,132 @@ public class ProfileExample {
     }
 
     public Criteria andNameIsNull() {
-      addCriterion("`name` is null");
+      addCriterion("k_name is null");
       return (Criteria) this;
     }
 
     public Criteria andNameIsNotNull() {
-      addCriterion("`name` is not null");
+      addCriterion("k_name is not null");
       return (Criteria) this;
     }
 
     public Criteria andNameEqualTo(String value) {
-      addCriterion("`name` =", value, "name");
+      addCriterion("k_name =", value, "name");
       return (Criteria) this;
     }
 
     public Criteria andNameNotEqualTo(String value) {
-      addCriterion("`name` <>", value, "name");
+      addCriterion("k_name <>", value, "name");
       return (Criteria) this;
     }
 
     public Criteria andNameGreaterThan(String value) {
-      addCriterion("`name` >", value, "name");
+      addCriterion("k_name >", value, "name");
       return (Criteria) this;
     }
 
     public Criteria andNameGreaterThanOrEqualTo(String value) {
-      addCriterion("`name` >=", value, "name");
+      addCriterion("k_name >=", value, "name");
       return (Criteria) this;
     }
 
     public Criteria andNameLessThan(String value) {
-      addCriterion("`name` <", value, "name");
+      addCriterion("k_name <", value, "name");
       return (Criteria) this;
     }
 
     public Criteria andNameLessThanOrEqualTo(String value) {
-      addCriterion("`name` <=", value, "name");
+      addCriterion("k_name <=", value, "name");
       return (Criteria) this;
     }
 
     public Criteria andNameLike(String value) {
-      addCriterion("`name` like", value, "name");
+      addCriterion("k_name like", value, "name");
       return (Criteria) this;
     }
 
     public Criteria andNameNotLike(String value) {
-      addCriterion("`name` not like", value, "name");
+      addCriterion("k_name not like", value, "name");
       return (Criteria) this;
     }
 
     public Criteria andNameIn(List<String> values) {
-      addCriterion("`name` in", values, "name");
+      addCriterion("k_name in", values, "name");
       return (Criteria) this;
     }
 
     public Criteria andNameNotIn(List<String> values) {
-      addCriterion("`name` not in", values, "name");
+      addCriterion("k_name not in", values, "name");
       return (Criteria) this;
     }
 
     public Criteria andNameBetween(String value1, String value2) {
-      addCriterion("`name` between", value1, value2, "name");
+      addCriterion("k_name between", value1, value2, "name");
       return (Criteria) this;
     }
 
     public Criteria andNameNotBetween(String value1, String value2) {
-      addCriterion("`name` not between", value1, value2, "name");
+      addCriterion("k_name not between", value1, value2, "name");
       return (Criteria) this;
     }
 
     public Criteria andAccessIsNull() {
-      addCriterion("`access` is null");
+      addCriterion("k_access is null");
       return (Criteria) this;
     }
 
     public Criteria andAccessIsNotNull() {
-      addCriterion("`access` is not null");
+      addCriterion("k_access is not null");
       return (Criteria) this;
     }
 
     public Criteria andAccessEqualTo(Integer value) {
-      addCriterion("`access` =", value, "access");
+      addCriterion("k_access =", value, "access");
       return (Criteria) this;
     }
 
     public Criteria andAccessNotEqualTo(Integer value) {
-      addCriterion("`access` <>", value, "access");
+      addCriterion("k_access <>", value, "access");
       return (Criteria) this;
     }
 
     public Criteria andAccessGreaterThan(Integer value) {
-      addCriterion("`access` >", value, "access");
+      addCriterion("k_access >", value, "access");
       return (Criteria) this;
     }
 
     public Criteria andAccessGreaterThanOrEqualTo(Integer value) {
-      addCriterion("`access` >=", value, "access");
+      addCriterion("k_access >=", value, "access");
       return (Criteria) this;
     }
 
     public Criteria andAccessLessThan(Integer value) {
-      addCriterion("`access` <", value, "access");
+      addCriterion("k_access <", value, "access");
       return (Criteria) this;
     }
 
     public Criteria andAccessLessThanOrEqualTo(Integer value) {
-      addCriterion("`access` <=", value, "access");
+      addCriterion("k_access <=", value, "access");
       return (Criteria) this;
     }
 
     public Criteria andAccessIn(List<Integer> values) {
-      addCriterion("`access` in", values, "access");
+      addCriterion("k_access in", values, "access");
       return (Criteria) this;
     }
 
     public Criteria andAccessNotIn(List<Integer> values) {
-      addCriterion("`access` not in", values, "access");
+      addCriterion("k_access not in", values, "access");
       return (Criteria) this;
     }
 
     public Criteria andAccessBetween(Integer value1, Integer value2) {
-      addCriterion("`access` between", value1, value2, "access");
+      addCriterion("k_access between", value1, value2, "access");
       return (Criteria) this;
     }
 
     public Criteria andAccessNotBetween(Integer value1, Integer value2) {
-      addCriterion("`access` not between", value1, value2, "access");
+      addCriterion("k_access not between", value1, value2, "access");
       return (Criteria) this;
     }
 

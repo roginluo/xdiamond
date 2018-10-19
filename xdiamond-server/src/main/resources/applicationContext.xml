@@ -14,7 +14,7 @@
 	<!-- enable component scanning and autowire (beware that this does not enable mapper scanning!) -->
 	<context:component-scan base-package="io.github.xdiamond">
 		<context:exclude-filter expression="org.springframework.stereotype.Controller" type="annotation" />
-		<context:exclude-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice" />
+		<!--<context:exclude-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice" />-->
 		<!-- exclude web config -->
 		<context:exclude-filter type="regex" expression="io.github.xdiamond.config.web.*" />
 	</context:component-scan>

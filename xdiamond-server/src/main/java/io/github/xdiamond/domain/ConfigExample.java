@@ -284,142 +284,142 @@ public class ConfigExample {
     }
 
     public Criteria andKeyIsNull() {
-      addCriterion("`key` is null");
+      addCriterion("K_KEY is null");
       return (Criteria) this;
     }
 
     public Criteria andKeyIsNotNull() {
-      addCriterion("`key` is not null");
+      addCriterion("K_KEY is not null");
       return (Criteria) this;
     }
 
     public Criteria andKeyEqualTo(String value) {
-      addCriterion("`key` =", value, "key");
+      addCriterion("K_KEY =", value, "key");
       return (Criteria) this;
     }
 
     public Criteria andKeyNotEqualTo(String value) {
-      addCriterion("`key` <>", value, "key");
+      addCriterion("K_KEY <>", value, "key");
       return (Criteria) this;
     }
 
     public Criteria andKeyGreaterThan(String value) {
-      addCriterion("`key` >", value, "key");
+      addCriterion("K_KEY >", value, "key");
       return (Criteria) this;
     }
 
     public Criteria andKeyGreaterThanOrEqualTo(String value) {
-      addCriterion("`key` >=", value, "key");
+      addCriterion("K_KEY >=", value, "key");
       return (Criteria) this;
     }
 
     public Criteria andKeyLessThan(String value) {
-      addCriterion("`key` <", value, "key");
+      addCriterion("K_KEY <", value, "key");
       return (Criteria) this;
     }
 
     public Criteria andKeyLessThanOrEqualTo(String value) {
-      addCriterion("`key` <=", value, "key");
+      addCriterion("K_KEY <=", value, "key");
       return (Criteria) this;
     }
 
     public Criteria andKeyLike(String value) {
-      addCriterion("`key` like", value, "key");
+      addCriterion("K_KEY like", value, "key");
       return (Criteria) this;
     }
 
     public Criteria andKeyNotLike(String value) {
-      addCriterion("`key` not like", value, "key");
+      addCriterion("K_KEY not like", value, "key");
       return (Criteria) this;
     }
 
     public Criteria andKeyIn(List<String> values) {
-      addCriterion("`key` in", values, "key");
+      addCriterion("K_KEY in", values, "key");
       return (Criteria) this;
     }
 
     public Criteria andKeyNotIn(List<String> values) {
-      addCriterion("`key` not in", values, "key");
+      addCriterion("K_KEY not in", values, "key");
       return (Criteria) this;
     }
 
     public Criteria andKeyBetween(String value1, String value2) {
-      addCriterion("`key` between", value1, value2, "key");
+      addCriterion("K_KEY between", value1, value2, "key");
       return (Criteria) this;
     }
 
     public Criteria andKeyNotBetween(String value1, String value2) {
-      addCriterion("`key` not between", value1, value2, "key");
+      addCriterion("K_KEY not between", value1, value2, "key");
       return (Criteria) this;
     }
 
     public Criteria andValueIsNull() {
-      addCriterion("`value` is null");
+      addCriterion("K_VALUE is null");
       return (Criteria) this;
     }
 
     public Criteria andValueIsNotNull() {
-      addCriterion("`value` is not null");
+      addCriterion("K_VALUE is not null");
       return (Criteria) this;
     }
 
     public Criteria andValueEqualTo(String value) {
-      addCriterion("`value` =", value, "value");
+      addCriterion("K_VALUE =", value, "value");
       return (Criteria) this;
     }
 
     public Criteria andValueNotEqualTo(String value) {
-      addCriterion("`value` <>", value, "value");
+      addCriterion("K_VALUE <>", value, "value");
       return (Criteria) this;
     }
 
     public Criteria andValueGreaterThan(String value) {
-      addCriterion("`value` >", value, "value");
+      addCriterion("K_VALUE >", value, "value");
       return (Criteria) this;
     }
 
     public Criteria andValueGreaterThanOrEqualTo(String value) {
-      addCriterion("`value` >=", value, "value");
+      addCriterion("K_VALUE >=", value, "value");
       return (Criteria) this;
     }
 
     public Criteria andValueLessThan(String value) {
-      addCriterion("`value` <", value, "value");
+      addCriterion("K_VALUE <", value, "value");
       return (Criteria) this;
     }
 
     public Criteria andValueLessThanOrEqualTo(String value) {
-      addCriterion("`value` <=", value, "value");
+      addCriterion("K_VALUE <=", value, "value");
       return (Criteria) this;
     }
 
     public Criteria andValueLike(String value) {
-      addCriterion("`value` like", value, "value");
+      addCriterion("K_VALUE like", value, "value");
       return (Criteria) this;
     }
 
     public Criteria andValueNotLike(String value) {
-      addCriterion("`value` not like", value, "value");
+      addCriterion("K_VALUE not like", value, "value");
       return (Criteria) this;
     }
 
     public Criteria andValueIn(List<String> values) {
-      addCriterion("`value` in", values, "value");
+      addCriterion("K_VALUE in", values, "value");
       return (Criteria) this;
     }
 
     public Criteria andValueNotIn(List<String> values) {
-      addCriterion("`value` not in", values, "value");
+      addCriterion("K_VALUE not in", values, "value");
       return (Criteria) this;
     }
 
     public Criteria andValueBetween(String value1, String value2) {
-      addCriterion("`value` between", value1, value2, "value");
+      addCriterion("K_VALUE between", value1, value2, "value");
       return (Criteria) this;
     }
 
     public Criteria andValueNotBetween(String value1, String value2) {
-      addCriterion("`value` not between", value1, value2, "value");
+      addCriterion("K_VALUE not between", value1, value2, "value");
       return (Criteria) this;
     }
 
@@ -824,62 +824,62 @@ public class ConfigExample {
     }
 
     public Criteria andVersionIsNull() {
-      addCriterion("version is null");
+      addCriterion("K_VERSION is null");
       return (Criteria) this;
     }
 
     public Criteria andVersionIsNotNull() {
-      addCriterion("version is not null");
+      addCriterion("K_VERSION is not null");
       return (Criteria) this;
     }
 
     public Criteria andVersionEqualTo(Integer value) {
-      addCriterion("version =", value, "version");
+      addCriterion("K_VERSION =", value, "version");
       return (Criteria) this;
     }
 
     public Criteria andVersionNotEqualTo(Integer value) {
-      addCriterion("version <>", value, "version");
+      addCriterion("K_VERSION <>", value, "version");
       return (Criteria) this;
     }
 
     public Criteria andVersionGreaterThan(Integer value) {
-      addCriterion("version >", value, "version");
+      addCriterion("K_VERSION >", value, "version");
       return (Criteria) this;
     }
 
     public Criteria andVersionGreaterThanOrEqualTo(Integer value) {
-      addCriterion("version >=", value, "version");
+      addCriterion("K_VERSION >=", value, "version");
       return (Criteria) this;
     }
 
     public Criteria andVersionLessThan(Integer value) {
-      addCriterion("version <", value, "version");
+      addCriterion("K_VERSION <", value, "version");
       return (Criteria) this;
     }
 
     public Criteria andVersionLessThanOrEqualTo(Integer value) {
-      addCriterion("version <=", value, "version");
+      addCriterion("K_VERSION <=", value, "version");
       return (Criteria) this;
     }
 
     public Criteria andVersionIn(List<Integer> values) {
-      addCriterion("version in", values, "version");
+      addCriterion("K_VERSION in", values, "version");
       return (Criteria) this;
     }
 
     public Criteria andVersionNotIn(List<Integer> values) {
-      addCriterion("version not in", values, "version");
+      addCriterion("K_VERSION not in", values, "version");
       return (Criteria) this;
     }
 
     public Criteria andVersionBetween(Integer value1, Integer value2) {
-      addCriterion("version between", value1, value2, "version");
+      addCriterion("K_VERSION between", value1, value2, "version");
       return (Criteria) this;
     }
 
     public Criteria andVersionNotBetween(Integer value1, Integer value2) {
-      addCriterion("version not between", value1, value2, "version");
+      addCriterion("K_VERSION not between", value1, value2, "version");
       return (Criteria) this;
     }
   }

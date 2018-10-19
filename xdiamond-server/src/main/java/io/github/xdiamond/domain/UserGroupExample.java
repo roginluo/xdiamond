@@ -283,62 +283,62 @@ public class UserGroupExample {
     }
 
     public Criteria andAccessIsNull() {
-      addCriterion("`access` is null");
+      addCriterion("k_access is null");
       return (Criteria) this;
     }
 
     public Criteria andAccessIsNotNull() {
-      addCriterion("`access` is not null");
+      addCriterion("k_access is not null");
       return (Criteria) this;
     }
 
     public Criteria andAccessEqualTo(Integer value) {
-      addCriterion("`access` =", value, "access");
+      addCriterion("k_access =", value, "access");
       return (Criteria) this;
     }
 
     public Criteria andAccessNotEqualTo(Integer value) {
-      addCriterion("`access` <>", value, "access");
+      addCriterion("k_access <>", value, "access");
       return (Criteria) this;
     }
 
     public Criteria andAccessGreaterThan(Integer value) {
-      addCriterion("`access` >", value, "access");
+      addCriterion("k_access >", value, "access");
       return (Criteria) this;
     }
 
     public Criteria andAccessGreaterThanOrEqualTo(Integer value) {
-      addCriterion("`access` >=", value, "access");
+      addCriterion("k_access >=", value, "access");
       return (Criteria) this;
     }
 
     public Criteria andAccessLessThan(Integer value) {
-      addCriterion("`access` <", value, "access");
+      addCriterion("k_access <", value, "access");
       return (Criteria) this;
     }
 
     public Criteria andAccessLessThanOrEqualTo(Integer value) {
-      addCriterion("`access` <=", value, "access");
+      addCriterion("k_access <=", value, "access");
       return (Criteria) this;
     }
 
     public Criteria andAccessIn(List<Integer> values) {
-      addCriterion("`access` in", values, "access");
+      addCriterion("k_access in", values, "access");
       return (Criteria) this;
     }
 
     public Criteria andAccessNotIn(List<Integer> values) {
-      addCriterion("`access` not in", values, "access");
+      addCriterion("k_access not in", values, "access");
       return (Criteria) this;
     }
 
     public Criteria andAccessBetween(Integer value1, Integer value2) {
-      addCriterion("`access` between", value1, value2, "access");
+      addCriterion("k_access between", value1, value2, "access");
       return (Criteria) this;
     }
 
     public Criteria andAccessNotBetween(Integer value1, Integer value2) {
-      addCriterion("`access` not between", value1, value2, "access");
+      addCriterion("k_access not between", value1, value2, "access");
       return (Criteria) this;
     }
   }

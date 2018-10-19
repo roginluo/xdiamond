@@ -7,6 +7,8 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authz.UnauthenticatedException;
 import org.apache.shiro.authz.UnauthorizedException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -16,9 +18,11 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ControllerAdvice
 public class GlobalDefaultExceptionHandler {
+  Logger logger = LoggerFactory.getLogger(getClass());
   @ExceptionHandler(UnauthorizedException.class)
   @ResponseBody
   public ResponseEntity<RestResult> noPermission() {
+    logger.error("未授权，没有获得权限：");
     return RestResult.fail().status(HttpServletResponse.SC_FORBIDDEN)
         .withErrorMessage("does not have permission").build();
   }
@@ -52,6 +56,7 @@ public class GlobalDefaultExceptionHandler {
     } else {
       restResultBuilder.withErrorMessage(throwable.getClass().getName());
     }
+    logger.error("粗错了！！！",throwable);
     return restResultBuilder.build();
   }
 

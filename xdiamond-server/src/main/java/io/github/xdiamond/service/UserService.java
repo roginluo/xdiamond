@@ -145,7 +145,7 @@ public class UserService {
       }
     } else if (provider.equalsIgnoreCase("ldap")) {
       // LDAP登陆的用户
-      Filter filter = new EqualsFilter("cn", userName);
+      Filter filter = new EqualsFilter("uid", userName);
       if (ldapTemplate.authenticate("", filter.encode(), password)) {
         // 通过认证，到数据库里查找用户是否已存在
         User user = query(userName);

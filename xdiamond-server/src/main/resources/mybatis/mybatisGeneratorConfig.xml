@@ -62,9 +62,9 @@
 			<property name="useActualColumnNames" value="true" />
 			<generatedKey column="id" sqlStatement="MySql" identity="true" />
 		</table>
-		<table tableName="user">
+		<table tableName="xdiamond_user">
 			<property name="useActualColumnNames" value="true" />
-			<generatedKey column="id" sqlStatement="MySql" identity="true" />
+			<generatedKey column="id" sqlStatement="Oracle" identity="true" />
 		</table>
 
 		<table tableName="profile">
